@@ -11,7 +11,7 @@ export function renderFooter() {
   footer.appendChild(container);
   
   const copyright = document.createElement('div');
-  copyright.innerHTML = `&copy; ${new Date().getFullYear()} CodeMatch`;
+  copyright.innerHTML = `&copy; ${new Date().getFullYear()} CodeMatch By VED`;
   container.appendChild(copyright);
   
   const links = document.createElement('div');
